@@ -44,3 +44,4 @@ Suggests:
     markdown
 VignetteBuilder: knitr
 RoxygenNote: 7.2.1
+URL: http://atlantis-ecosystem-model.github.io/atlantisom/
