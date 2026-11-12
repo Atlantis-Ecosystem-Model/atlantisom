@@ -1,4 +1,10 @@
 # atlantisom
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/Atlantis-Ecosystem-Model/atlantisom/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Atlantis-Ecosystem-Model/atlantisom/actions/workflows/R-CMD-check.yaml)
+[![gh-pages](https://github.com/Atlantis-Ecosystem-Model/atlantisom/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/Atlantis-Ecosystem-Model/atlantisom/actions/workflows/pkgdown.yaml)
+<!-- badges: end -->
+
+
 [Atlantis][Atlantis] operating model. 
 Generates data sets from [Atlantis][Atlantis] scenarios.
 
@@ -7,8 +13,7 @@ Generates data sets from [Atlantis][Atlantis] scenarios.
 You must install from github, using: 
 
 ```R
-# install.packages("devtools")
-devtools::install_github("r4atlantis/atlantisom")
+pak::pak("Atlantis-Ecosystem-Model/atlantisom")
 ```
 
 atlantisom functions are divided into four types:
