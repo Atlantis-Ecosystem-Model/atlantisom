@@ -22,11 +22,7 @@ The development version of atlantisom can be installed from GitHub
 with the following code:
 
 ```{r, install-and-load, eval=FALSE}
-# install.packages("devtools") # if needed
-devtools::install_github("r4atlantis/atlantisom", dependencies = TRUE)
-
-# If you would like the vignettes available with the GitHub development version:
-devtools::install_github("r4atlantis/atlantisom", dependencies = TRUE, build_vignettes = TRUE)
+pak::pak("Atlantis-Ecosystem-Model/atlantisom")
 ```
 
 You can then load the package with:

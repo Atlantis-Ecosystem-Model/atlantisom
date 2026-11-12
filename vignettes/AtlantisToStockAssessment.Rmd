@@ -40,7 +40,7 @@ library(atlantisom)
 Or you can install directly from the Github repository.
 
 ```{r eval=FALSE, message=FALSE, warning=FALSE}
-devtools::install_github("r4atlantis\atlantisom")
+pak::pak("Atlantis-Ecosystem-Model/atlantisom")
 ```
 
 ## Initializing input files and directories
