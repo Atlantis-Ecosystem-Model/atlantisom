@@ -1,36 +1,22 @@
-url: https://r4atlantis.github.io/atlantisom
+url: http://atlantis-ecosystem-model.github.io/atlantisom/
+template:
+  bootstrap: 5
+
 
 reference:
 - title: "Load"
   desc: "Functions that read in output from Atlantis."
 - contents:
-  - load_bioind
-  - load_agebioind
-  - load_biolprm
-  - load_box
-  - load_boxarea
-  - load_bps
-  - load_catch
-  - load_detailed_diet_comp
-  - load_diet_comp
-  - load_fgs
-  - load_fisheries
-  - load_meta
-  - load_nc
-  - load_nc_annage
-  - load_nc_catchtons
-  - load_nc_physics
-  - load_runprm
-  - load_yoy
+  - starts_with("load_")
 - title: "Create"
-  desc: "Functions that conduct run multiple sample functions to create either fishery-independent or fishery-dependent data."
+  desc: "Functions to create either fishery-independent or fishery-dependent data."
 - contents:
-  - create_env
+  - create_survey_env
   - create_fishery_subset
   - create_survey
   - create_survey_diet
 - title: "Sample"
-  desc: "Functions for manipulate Atlantis data which signifies the truth.
+  desc: "Functions to manipulate Atlantis data which signifies the truth.
    These manipulations generate sampled data for use in various estimation models."
 - contents:
   - sample_ages
@@ -39,10 +25,17 @@ reference:
   - sample_fishery_totcatch
   - sample_survey_biomass
   - sample_survey_numbers
+  - sample_survey_consumption
 - title: "Write"
-  desc: " Functions for writing output the disk."
+  desc: " Functions for writing output."
 - contents:
   - write_meta
+  - SS_write_comps
+  - SS_write_EWAA
+  - SS_write_ts
+  - SS_write_biol
+  - write_SS_ctl
+  - write_SS_dat
 - title: "Other"
   desc: "Need to categorize"
 - contents:
@@ -56,6 +49,7 @@ reference:
   - calc_pred_diet
   - calc_stage2age
   - calc_timestep2time
+  - calc_pred_cons
   - calc_Z
   - get_boundary
   - om_comps
@@ -63,12 +57,12 @@ reference:
   - om_index
   - om_init
   - om_species
+  - om_consindex
   - read_savedsurvs
+  - read_savedfisheries
   - reformat_compositions
   - run_stocksynthesis
   - run_truth
-  - SS_write_biol
-  - SS_write_comps
-  - SS_write_EWAA
-  - SS_write_ts
+
+
 
