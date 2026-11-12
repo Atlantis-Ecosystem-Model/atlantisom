@@ -2,7 +2,6 @@ Package: atlantisom
 Type: Package
 Title: Generates Data Sets From Atlantis Scenarios
 Version: 0.1
-Date: 2015-12-05
 Authors@R: c(
   person("Gavin", "Fay", email = "gfay@umassd.edu", role = "aut"),
   person("Sarah", "Gaichas", email = "sarah.gaichas@noaa.gov", role = "aut"),
@@ -17,11 +16,9 @@ Authors@R: c(
   person("Howard", "Townsend", email = "howard.townsend@noaa.gov", role = "aut")
   )
 Description: The atlantisom package develops data sets for use in other
-    modelling frameworks from an Atlantis scenario. Functions located within
-    the package may be helpful for users of Atlantis wishing to look at model
-    output as well.
+    modelling frameworks from an Atlantis scenario. 
 Encoding: UTF-8
-License: What license is it under?
+License: GPL-3
 LazyData: TRUE
 Imports: 
     RNetCDF,
@@ -44,4 +41,5 @@ Suggests:
     markdown
 VignetteBuilder: knitr
 RoxygenNote: 7.2.1
-URL: http://atlantis-ecosystem-model.github.io/atlantisom/
+URL: https://github.com/Atlantis-Ecosystem-Model/atlantisom
+BugReports: https://github.com/Atlantis-Ecosystem-Model/atlantisom/issues

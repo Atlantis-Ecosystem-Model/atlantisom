@@ -1,7 +1,10 @@
 url: http://atlantis-ecosystem-model.github.io/atlantisom/
+
 template:
   bootstrap: 5
 
+deploy:
+  install_metadata: true
 
 reference:
 - title: "Load"
